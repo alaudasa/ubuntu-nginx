@@ -5,8 +5,8 @@
 #
 
 # Pull base image.
-#FROM dockerfile/ubuntu
-FROM ring2016/nginx
+FROM dockerfile/ubuntu
+#FROM ring2016/nginx
 
 # Install Nginx.
 RUN \
